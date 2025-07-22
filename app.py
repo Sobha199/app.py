@@ -100,17 +100,8 @@ elif st.session_state.logged_in:
                 auditor_name = st.text_input("Auditor Emp Name")
 
             
-    # Your input fields
-    st.date_input("Date")
-    st.text_input("Emp Name")
-    st.selectbox("Project Category", ["Entry", "Exit"])
-    st.text_input("Emp ID")
-    st.selectbox("Project", ["Elevance MA", "Other Project"])
-
     # ✅ Add this line at the end of the form
     submitted = st.form_submit_button("Submit")
-    if submitted:
-        st.success("Form submitted successfully!")
 
 
                 if submit:
