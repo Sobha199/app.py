@@ -99,7 +99,7 @@ elif st.session_state.logged_in:
                 auditor_id = st.text_input("Auditor Emp ID")
                 auditor_name = st.text_input("Auditor Emp Name")
 
-             with st.form("my_form"):
+            
     # Your input fields
     st.date_input("Date")
     st.text_input("Emp Name")
