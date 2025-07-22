@@ -100,8 +100,9 @@ elif st.session_state.logged_in:
                 auditor_name = st.text_input("Auditor Emp Name")
 
             
-    # ✅ Add this line at the end of the form
-    submitted = st.form_submit_button("Submit")
+ submitted = st.form_submit_button("Submit")
+    if submitted:
+        st.success("Form submitted successfully!")
 
 
                 if submit:
